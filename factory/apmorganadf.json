@@ -1,0 +1,9 @@
+{
+	"name": "apmorganadf",
+	"location": "australiasoutheast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6edc8fe5-6c02-48f7-baf1-e82936e999bb",
+		"tenantId": "7761a145-5718-4f21-a91a-b628f9fb4436"
+	}
+}

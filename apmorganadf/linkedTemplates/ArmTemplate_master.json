@@ -23,7 +23,7 @@
 			"type": "string",
 			"defaultValue": "https://apmorgankeyvault1.vault.azure.net/"
 		},
-		"storageEventTrigger_properties_pipeline1_parameters_fileName": {
+		"storageEventTrigger_properties_DatabricksPipeline_parameters_fileName": {
 			"type": "string",
 			"defaultValue": "@triggerBody().fileName"
 		},
@@ -70,8 +70,8 @@
 					"AzureDatabricks_LS_properties_typeProperties_existingClusterId": {
 						"value": "[parameters('AzureDatabricks_LS_properties_typeProperties_existingClusterId')]"
 					},
-					"storageEventTrigger_properties_pipeline1_parameters_fileName": {
-						"value": "[parameters('storageEventTrigger_properties_pipeline1_parameters_fileName')]"
+					"storageEventTrigger_properties_DatabricksPipeline_parameters_fileName": {
+						"value": "[parameters('storageEventTrigger_properties_DatabricksPipeline_parameters_fileName')]"
 					},
 					"storageEventTrigger_properties_typeProperties_scope": {
 						"value": "[parameters('storageEventTrigger_properties_typeProperties_scope')]"

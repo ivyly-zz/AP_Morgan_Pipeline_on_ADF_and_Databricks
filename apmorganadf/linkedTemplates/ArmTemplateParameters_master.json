@@ -17,7 +17,7 @@
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://apmorgankeyvault1.vault.azure.net/"
 		},
-		"storageEventTrigger_properties_pipeline1_parameters_fileName": {
+		"storageEventTrigger_properties_DatabricksPipeline_parameters_fileName": {
 			"value": "@triggerBody().fileName"
 		},
 		"storageEventTrigger_properties_typeProperties_scope": {
